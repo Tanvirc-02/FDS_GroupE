@@ -28,7 +28,7 @@ class Queue
     
     bool isFull()
     {
-        if(front==0 && rear==MAX_SIZE - 1)
+        if(rear==MAX_SIZE - 1)
         {
             return true;
         }
@@ -40,7 +40,7 @@ class Queue
     
     void enQueue(int val)
     {
-        int arr[MAX_SIZE];
+        
         if(isFull())
         {
             cout<<"Queue is full"<<endl;
@@ -56,7 +56,7 @@ class Queue
     
     int deQueue()
     {
-        int arr[MAX_SIZE];
+        
         if(isEmpty() or front==MAX_SIZE)
         {
             cout<<"Queue is empty"<<endl;
@@ -76,7 +76,7 @@ class Queue
     
     void display()
     {
-        cout<<"Queue elements are:";
+        cout<<"Queue elements are: ";
         for(int i=front; i<=rear; i++)
         {
             cout<<arr[i]<<"\t";
