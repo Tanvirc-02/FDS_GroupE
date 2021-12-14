@@ -1,2 +1,2 @@
 # FDS_GroupE
-FDS group D practicals
+FDS group E practicals
