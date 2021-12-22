@@ -54,7 +54,7 @@ class Queue
         }
     }
     
-    int deQueue()
+    void deQueue()
     {
         
         if(isEmpty() or front==MAX_SIZE)
